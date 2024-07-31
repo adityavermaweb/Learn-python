@@ -99,3 +99,24 @@ for el in nums:
     if(el == x):
         print("number found at idx", idx)
     idx += 1   
+
+
+# ----------- range() -------------->
+
+# Q) Print numbers from 1 to 100
+
+for x in range( 1, 101):
+    print(x)
+
+
+# Q) Print numbers from 100 to 1 ?
+
+for i in range(100, 0, -1):
+    print(i)
+
+
+# Q) Print the multiplication table of a number n ?
+
+n = int(input("enter number : "))
+for i in range(1, 11):
+    print(n * i)
