@@ -68,3 +68,34 @@ while i < len(nums):
         print("FOUND at idx", i) 
         break
     i += 1  
+
+
+# --------- for loop -------------->
+
+# Ex:- To print characters present in the given string.
+
+s = "Aditya"
+for e in s:
+    print(e)
+
+
+# Ex:- Print the elements of the following list using a loop:
+        # [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+
+nums = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+
+for el in nums:
+    print(el)
+
+
+# Ex:- Search for a number x in this tuple using loop:
+        # (1, 4, 9, 16, 25, 36, 49, 64, 81, 100)
+
+nums = (1, 4, 9, 16, 25, 36, 49, 64, 81, 100)
+x = int(input("enter the number : "))
+
+idx = 0
+for el in nums:
+    if(el == x):
+        print("number found at idx", idx)
+    idx += 1   
