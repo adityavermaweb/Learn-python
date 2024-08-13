@@ -21,7 +21,8 @@ def squareIt(number):
     print("The Square of",number,"is",number*number)
 squareIt(4)
 squareIt(5)
-squareIt(2)    
+squareIt(2)  
+
 
 # Eg 4: Write a function of calculate average of 3 numbers
 
@@ -32,3 +33,13 @@ def calc_avg(a, b, c):
     return avg
 
 calc_avg(98, 97, 95)
+
+
+# Eg 5: Write a function to print the length of a list.(list is the parameter).
+
+cities = ["delhi", "gurgaon", "noida", "pune", "mumbai", "chennai"]
+heroes = ["thor","iranman","captain america","shaktiman"]
+def print_len(list):
+    print(len(list))
+print_len(cities)
+print_len(heroes)
