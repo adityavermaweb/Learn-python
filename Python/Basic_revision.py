@@ -25,3 +25,10 @@
 #     print ("You are in school")
 # else:
 #     print("You are in school")
+
+
+# if, elif, else condition :-
+
+# first = input("Enter first number : ")
+# operator = input("Enter operator (+,-,*,/,%) : ")
+# second = input("Enter second number : ")
